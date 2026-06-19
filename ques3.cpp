@@ -1,20 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
 int main() { 
-int x = 200, y = 50, z = 100; 
-if(x > y && y > z){ 
-cout << "Hello \n"; 
-} 
- 
- 
-if(z > y && z < x){ 
-cout << "C++ \n"; 
-} 
- 
- 
-if((y+200) < x && (y+150) < z){ 
-cout << "Hello C++ \n"; 
-} 
-} 
+int a = 63, b = 36; 
+bool x = (a < b) ? true : false; 
+int y = (a > b) ? a : b; 
+cout << x << "," << y << endl; 
+return 0; 
+}
