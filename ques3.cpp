@@ -1,20 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    float principal,rate,time;
-    float SimpleInterest;
 
-    cout << "Enter the principal amount:";
-    cin >> principal;
-
-    cout << "Enter the rate of interest:";
-    cin >> rate;
-
-    cout << "Enter the time:";
-    cin >> time;
-
-    SimpleInterest = (principal * rate * time)/100;
-
-    cout << "SimpleInterest is :"<< SimpleInterest;
-}
+int main() { 
+int x = 200, y = 50, z = 100; 
+if(x > y && y > z){ 
+cout << "Hello \n"; 
+} 
+ 
+ 
+if(z > y && z < x){ 
+cout << "C++ \n"; 
+} 
+ 
+ 
+if((y+200) < x && (y+150) < z){ 
+cout << "Hello C++ \n"; 
+} 
+} 
