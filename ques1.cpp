@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int cube(int num){
-    return num*num*num;
+int boundarycircle(int a,int b,int c){
+    return ((c+a-2)%5+1);
 }
 
 
 int main(){
-    int n;
-    cin >> n;
+    int a,b,c;
+    cin >> a >> b >> c;
 
-    cout << (cube(n));
+    cout << boundarycircle(a,b,c);
 }
