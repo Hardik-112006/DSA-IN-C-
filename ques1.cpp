@@ -1,19 +1,14 @@
 #include <iostream>
 using namespace std;
 
+int cube(int num){
+    return num*num*num;
+}
+
+
 int main(){
-    int number;
+    int n;
+    cin >> n;
 
-    cout << "Enter a number:";
-    cin >> number;
-
-    if(number > 0){
-      cout << "Number is positive";
-    }
-    else if(number == 0){
-      cout << "Number is zero";
-    }
-    else{
-      cout << "Number is negative";
-    }
+    cout << (cube(n));
 }
