@@ -2,29 +2,21 @@
 using namespace std;
 
 int main(){
-    int number;
-    cout << "Enter the number:";
-    cin >> number;
+    int i,j;
 
-    int number2;
-    number2 = number;
-
-    int rem,sum=0;
-
-    if(number2 == 0 || number2 == 1){
-        cout << number2;
+    for(i=1;i<=5;i++){
+       //spaces
+    for(j=1;j<=5-i;j++){
+        cout << " ";
     }
-    else{
-    while(number2 != 0){
-       rem = number2 % 10;
-       sum = sum + (rem*rem*rem);
-       number2 = number2 / 10;
+    // nums backward
+    for(j=i;j>=1;j--){
+      cout << j;
     }
-    if(sum == number){
-      cout << number <<" is an armstrong number";
+    // nums forward
+    for(j=2;j<=i;j++){
+      cout << j;
     }
-    else{
-        cout << number << " is not an armstrong number";
+    cout << endl;
     }
-}
 }

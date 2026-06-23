@@ -2,23 +2,14 @@
 using namespace std;
 
 int main(){
-    int n,i;
+    int i,j;
+    bool val = true;
 
-    cout<<"Enter the number:";
-    cin >> n;
-
-
-    if(n < 0){
-       cout << "Negative number entered";
-    }
-   else if(n == 0 || n == 1){
-        cout << "1";
-    }
-    else{
-    int fact = 1;
-    for(i=1;i<=n;i++){
-        fact = fact * i;
-    }
-    cout << " Factorial of " << n << " is: " << fact;
+    for(i=1;i<=5;i++){
+        for(j=1;j<=i;j++){
+          cout << val;
+          val = !val;
+        }
+        cout << endl;
     }
 }
