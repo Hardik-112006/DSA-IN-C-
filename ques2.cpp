@@ -1,24 +1,13 @@
 #include <iostream>
 using namespace std;
 
-
- int setBits(int n) {
-    
-        int count = 0;
-        
-        while(n!=0){
-            
-        if(n&1){
-            count++;
-        }
-        n=n>>1;
-        }
-        return count;
-    }
-
 int main(){
-    int n;
+    int i,n;
+
+    cout << "Enter the number:";
     cin >> n;
 
-    cout << setBits(n);
+    for(i=1;i<=10;i++){
+        cout << n << "*" << i << "=" << n * i << endl;
+    }
 }

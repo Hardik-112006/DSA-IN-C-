@@ -1,21 +1,30 @@
 #include <iostream>
 using namespace std;
 
- int countBitsFlip(int a, int b) {
-        int x,count=0;
-        x = a^b;
-        while(x!=0){
-            if(x&1){
-                count++;
-            }
-            x = x >> 1;
-        }
-        return count;
-    }
-
 int main(){
-    int a,b;
-    cin >> a >> b;
+    int number;
+    cout << "Enter the number:";
+    cin >> number;
 
-    cout << countBitsFlip(a,b);
+    int number2;
+    number2 = number;
+
+    int rem,sum=0;
+
+    if(number2 == 0 || number2 == 1){
+        cout << number2;
+    }
+    else{
+    while(number2 != 0){
+       rem = number2 % 10;
+       sum = sum + (rem*rem*rem);
+       number2 = number2 / 10;
+    }
+    if(sum == number){
+      cout << number <<" is an armstrong number";
+    }
+    else{
+        cout << number << " is not an armstrong number";
+    }
+}
 }

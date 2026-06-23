@@ -1,14 +1,24 @@
 #include <iostream>
 using namespace std;
 
-int boundarycircle(int a,int b,int c){
-    return ((c+a-2)%5+1);
-}
-
-
 int main(){
-    int a,b,c;
-    cin >> a >> b >> c;
+    int n,i;
 
-    cout << boundarycircle(a,b,c);
+    cout<<"Enter the number:";
+    cin >> n;
+
+
+    if(n < 0){
+       cout << "Negative number entered";
+    }
+   else if(n == 0 || n == 1){
+        cout << "1";
+    }
+    else{
+    int fact = 1;
+    for(i=1;i<=n;i++){
+        fact = fact * i;
+    }
+    cout << " Factorial of " << n << " is: " << fact;
+    }
 }
