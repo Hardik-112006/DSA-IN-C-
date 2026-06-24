@@ -1,19 +1,24 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i,j;
-
-    for(i=1;i<=5;i++){
-        //spaces
-       for(j=1;j<=5-i;j++){
-        cout << " ";
-       }
-       // stars
-       for(j=1;j<=5;j++){
-        cout << "*";
-       }
-       cout << endl;
-
+int reverse(int n){
+    int rem,ans=0;
+    if(n>5000){
+        return 0;
     }
+    else{
+        while(n!=0){
+            rem = n % 10;
+            ans = ans * 10 + rem;
+            n = n / 10;
+        }
+    }
+    return ans;
+}
+
+int main(){
+    int num;
+    cin >> num;
+
+    cout << reverse(num);
 }

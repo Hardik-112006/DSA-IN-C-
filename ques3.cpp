@@ -1,22 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i,j;
+void swap(int &n1,int &n2,int &n3){
+    int temp;
+    temp = n1;
+    n1 = n3;
+    n3 = n2;
+    n2 = temp;
+}
 
-    for(i=1;i<=5;i++){
-       //spaces
-    for(j=1;j<=5-i;j++){
-        cout << " ";
-    }
-    // nums backward
-    for(j=i;j>=1;j--){
-      cout << j;
-    }
-    // nums forward
-    for(j=2;j<=i;j++){
-      cout << j;
-    }
-    cout << endl;
-    }
+
+int main(){
+    int a,b,c;
+    cin >> a >> b >> c;
+
+    swap(a,b,c);
+    cout << a  << " " << b  << " "  << c ;
 }

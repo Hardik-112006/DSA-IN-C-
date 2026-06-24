@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i,j;
-    bool val = true;
+int cube(int num){
+    return num*num*num;
+}
 
-    for(i=1;i<=5;i++){
-        for(j=1;j<=i;j++){
-          cout << val;
-          val = !val;
-        }
-        cout << endl;
-    }
+
+int main(){
+    int n;
+    cin >> n;
+
+    cout << (cube(n));
 }

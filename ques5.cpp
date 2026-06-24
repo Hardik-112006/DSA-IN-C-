@@ -1,23 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i,first,last,n,next;
+void print(int num){
+    int i;
+    for(i=0;i<num;i++){
+        cout << "Hello Coder Army" << endl;
+    }
+}
 
-    cout << "Enter the number:";
+int main(){
+    int n;
     cin >> n;
 
-    first = 0;
-    last = 1;
-
-    cout << first << " ";
- 
-    for(i=1;i<n;i++){
-     next = first + last;
-     cout << last << " ";
-
-     first = last;
-     last = next;
-    }
-
+    print(n);
 }
