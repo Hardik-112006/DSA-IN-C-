@@ -2,10 +2,15 @@
 using namespace std;
 
 int main(){
-    int a,b;
-    cin >> a >> b;
+    int i;
+    char arr[100];
+    char ch;
 
-    swap(a,b);
+    for(i=1;i<27;i++){
+        arr[i] = 'a'+ i - 1;
+    }
 
-    cout << a << " " << b;
+    for(i=1;i<27;i++){
+        cout << arr[i] << " ";
+    }
 }

@@ -1,21 +1,33 @@
 #include <iostream>
 using namespace std;
 
- int countBitsFlip(int a, int b) {
-        int x,count=0;
-        x = a^b;
-        while(x!=0){
-            if(x&1){
-                count++;
-            }
-            x = x >> 1;
-        }
-        return count;
+int main(){
+    int arr[100];
+    int size;
+    cout << "Enter the size of array:";
+    cin >> size;
+    int i;
+    int searchnum;
+    bool isfound = 0;
+    int index = 0;
+  
+    cout << "Enter the elements of array:";
+    for(i=0;i<size;i++){
+        cin >> arr[i];
     }
 
-int main(){
-    int a,b;
-    cin >> a >> b;
+    cout << "Enter the element to search in an array:";
+    cin >> searchnum;
 
-    cout << countBitsFlip(a,b);
+    for(i=0;i<size;i++){
+        if(arr[i] == searchnum){
+            isfound = 1;
+            index = i;
+        }
+    }
+
+    if(isfound == 1)
+    cout << " Element found at index " << index;
+    else
+    cout << "-1";
 }

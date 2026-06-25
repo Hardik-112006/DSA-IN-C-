@@ -1,24 +1,22 @@
 #include <iostream>
 using namespace std;
 
+int main(){
+    int arr[20];
+     int i;
+     int sum = 0;
+     float avg;
 
- int setBits(int n) {
+     cout << "Enter the elements of array:";
+    for(i=0;i<18;i++){
+        cin >> arr[i];
+    }
     
-        int count = 0;
-        
-        while(n!=0){
-            
-        if(n&1){
-            count++;
-        }
-        n=n>>1;
-        }
-        return count;
+    for(i=0;i<18;i++){
+        sum = sum + arr[i];
     }
 
-int main(){
-    int n;
-    cin >> n;
+    avg = sum / 18;
 
-    cout << setBits(n);
+    cout  << "The average of 18 elements using arrays is :" << avg;
 }

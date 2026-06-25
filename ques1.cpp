@@ -1,14 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int boundarycircle(int a,int b,int c){
-    return ((c+a-2)%5+1);
-}
-
-
 int main(){
-    int a,b,c;
-    cin >> a >> b >> c;
+    int arr[20];
+     int i;
+     int sum = 0;
 
-    cout << boundarycircle(a,b,c);
+     cout << "Enter the elements of array:";
+    for(i=0;i<20;i++){
+        cin >> arr[i];
+    }
+    
+    for(i=0;i<20;i++){
+        sum = sum + arr[i];
+    }
+
+    cout  << "The sum of 20 elements using arrays is :" << sum;
 }
