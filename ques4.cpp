@@ -1,16 +1,5 @@
-#include <iostream>
-using namespace std;
+// for(int i=1;i<=n;i++) 
+//       for(int j=i;j<=n;j=j++)
+//       cout<<"Coder Army";
 
-int main(){
-    int i;
-    char arr[100];
-    char ch;
-
-    for(i=1;i<27;i++){
-        arr[i] = 'a'+ i - 1;
-    }
-
-    for(i=1;i<27;i++){
-        cout << arr[i] << " ";
-    }
-}
+// TIME COMPLEXITY WILL BE O(N^2)
