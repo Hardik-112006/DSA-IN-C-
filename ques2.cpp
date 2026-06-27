@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int i,j,index=0;
+    int i,j;
     int arr[100];
     int size;
 
@@ -15,7 +15,7 @@ int main(){
         cin >> arr[i];
     }
 
-    cout << "The Array before sorting in descending order is:";
+    cout << "The Array before sorting in ascending order is:";
 
     for(i=0;i<size;i++){
         cout << arr[i]  << " ";
@@ -23,17 +23,19 @@ int main(){
 
     cout << endl;
 
-    for(i=0;i<size-1;i++){
-        index = i;
-        for(j=i+1;j<size;j++){
-            if(arr[j] > arr[index]){
-                index = j;
+    for(i=size-2;i>=0;i--){
+        bool swapped = 0;
+        for(j=0;j<=i;j++){
+            if(arr[j] < arr[j+1]){
+             swap(arr[j],arr[j+1]);
+             swapped = 1;
             }
         }
-        swap(arr[index],arr[i]);
+        if(swapped == 0)
+         break;
     }
 
-    cout << "The Array after sorting in descending order is:";
+    cout << "The Array after sorting in ascending order is:";
 
     for(i=0;i<size;i++){
         cout << arr[i] << " ";
