@@ -23,18 +23,16 @@ int main(){
 
     cout << endl;
 
-    for(i=0;i<size-1;i++){
-        bool swapped = 0;
-        for(j=size-1;j>i;j--){
-            if(arr[j] < arr[j-1]){
-             swap(arr[j],arr[j-1]);
-             swapped = 1;
+    for(i=size-2;i>=0;i--){
+        for(j=i;j<size-1;j++){
+            if(arr[j] > arr[j+1]){
+             swap(arr[j],arr[j+1]);
             }
-        }
-        if(swapped == 0)
-         break;
+            else
+             break;
+        
     }
-
+        }
     cout << "The Array after sorting in ascending order is:";
 
     for(i=0;i<size;i++){
