@@ -3,39 +3,65 @@ using namespace std;
 
 int main(){
     int i,j;
-    int arr[100];
-    int size;
+    int row,col;
+    int arr1[100][100];
+    int arr2[100][100];
+    int arr3[100][100];
 
-    cout << "Enter the size of array:";
-    cin >> size;
+    cout << "Enter the number of row:";
+    cin >> row;
 
-    cout << "Enter the elements of array:";
+    cout << "Enter the number of col:";
+    cin >> col;
 
-    for(i=0;i<size;i++){
-        cin >> arr[i];
-    }
+    cout << "Enter the" << row * col << "elements:";
 
-    cout << "The Array before sorting in descending order is:";
 
-    for(i=0;i<size;i++){
-        cout << arr[i]  << " ";
-    }
 
-    cout << endl;
-
-    for(i=1;i<size;i++){
-        for(j=i;j>0;j--){
-            if(arr[j] > arr[j-1]){
-             swap(arr[j],arr[j-1]);
-            }
-            else
-             break;
-        
-    }
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cin >> arr1[i][j];
         }
-    cout << "The Array after sorting in descending order is:";
-
-    for(i=0;i<size;i++){
-        cout << arr[i] << " ";
     }
+
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cin >> arr2[i][j];
+        }
+    }
+
+
+
+
+
+    cout << "The original matrix is:";
+
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cout << arr1[i][j];
+        }
+    }
+    
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cout << arr2[i][j];
+        }
+    }
+
+    
+for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         arr3[i][j] = arr1[i][j] - arr2[i][j]; 
+        }
+    }
+
+    cout << "The result matrix is:";
+    
+    
+  for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cout << arr3[i][j];
+        }
+    }
+   
 }

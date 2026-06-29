@@ -1,5 +1,42 @@
-//  for(int i=1;i<=n;i++) 
-//       for(int j=1;j<=n;j=j*4)
-//       cout<<"Coder Army";
+#include <iostream>
+using namespace std;
 
-// TIME COMPLEXITY WILL BE O(n log base 4 n)
+int main(){
+    int i,j;
+    int row,col;
+    int arr[100][100];
+    int max = INT_MIN;
+
+    cout << "Enter the number of row:";
+    cin >> row;
+
+    cout << "Enter the number of col:";
+    cin >> col;
+
+    cout << "Enter the" << row * col << "elements:";
+
+
+
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cin >> arr[i][j];
+        }
+    }
+
+    cout << "The original matrix is:";
+
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cout << arr[i][j];
+        }
+    }
+
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            if(max<arr[i][j]){
+                max = arr[i][j];
+            }
+        }
+    }
+    cout << "the largest element in array is:" << max;
+}

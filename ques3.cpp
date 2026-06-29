@@ -3,39 +3,43 @@ using namespace std;
 
 int main(){
     int i,j;
-    int arr[100];
-    int size;
+    int sum = 0;
+    int row,col;
+    int arr[100][100];
 
-    cout << "Enter the size of array:";
-    cin >> size;
+    cout << "Enter the number of row:";
+    cin >> row;
 
-    cout << "Enter the elements of array:";
+    cout << "Enter the number of col:";
+    cin >> col;
 
-    for(i=0;i<size;i++){
-        cin >> arr[i];
-    }
+    cout << "Enter the" << row * col << "elements:";
 
-    cout << "The Array before sorting in ascending order is:";
 
-    for(i=0;i<size;i++){
-        cout << arr[i]  << " ";
-    }
 
-    cout << endl;
-
-    for(i=size-2;i>=0;i--){
-        for(j=i;j<size-1;j++){
-            if(arr[j] > arr[j+1]){
-             swap(arr[j],arr[j+1]);
-            }
-            else
-             break;
-        
-    }
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cin >> arr[i][j];
         }
-    cout << "The Array after sorting in ascending order is:";
-
-    for(i=0;i<size;i++){
-        cout << arr[i] << " ";
     }
+
+    cout << "The original matrix is:";
+
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+         cout << arr[i][j];
+        }
+    }
+    
+     for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            if(i == j || i + j == row - 1)
+            sum = sum + arr[j][i];
+           
+        }
+         
+    }
+    cout << "the sum of each column is:" << sum;
+
+   
 }
