@@ -5,7 +5,7 @@ public:
         string ans;
 
         for(i=0;i<address.size();i++){
-            if(address[i] == '.'){
+            if(!isalnum(address[i])){
                 ans += "[.]";
             }
             else{
