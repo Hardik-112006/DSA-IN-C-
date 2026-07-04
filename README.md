@@ -40,6 +40,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
+| [2785-sort-vowels-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/2785-sort-vowels-in-a-string) |
 ## Counting
 |  |
 | ------- |
@@ -56,6 +57,7 @@
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 | [1108-defanging-an-ip-address](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1108-defanging-an-ip-address) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
+| [2785-sort-vowels-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/2785-sort-vowels-in-a-string) |
 ## Greedy
 |  |
 | ------- |
