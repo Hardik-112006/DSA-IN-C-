@@ -33,6 +33,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
@@ -54,6 +55,7 @@
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
@@ -69,6 +71,7 @@
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
 ## Simulation
