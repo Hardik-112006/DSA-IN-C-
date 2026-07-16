@@ -64,6 +64,7 @@
 | [0011-container-with-most-water](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 ## String
@@ -72,6 +73,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
@@ -98,4 +100,8 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0003-longest-substring-without-repeating-characters) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
