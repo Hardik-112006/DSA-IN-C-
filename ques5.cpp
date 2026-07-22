@@ -2,41 +2,14 @@
 using namespace std;
 
 int main(){
-    int i,j;
-    int row,col;
-    int arr[100][100];
-    int max = INT_MIN;
+    int i;
 
-    cout << "Enter the number of row:";
-    cin >> row;
+    int arr[] = {1,2,3,4,5};
 
-    cout << "Enter the number of col:";
-    cin >> col;
+    int *ptr = &arr[4];
 
-    cout << "Enter the" << row * col << "elements:";
-
-
-
-    for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cin >> arr[i][j];
-        }
+    for(i=0;i<5;i++){
+        cout << *ptr << endl;
+        ptr--;
     }
-
-    cout << "The original matrix is:";
-
-     for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cout << arr[i][j];
-        }
-    }
-
-    for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-            if(max<arr[i][j]){
-                max = arr[i][j];
-            }
-        }
-    }
-    cout << "the largest element in array is:" << max;
 }

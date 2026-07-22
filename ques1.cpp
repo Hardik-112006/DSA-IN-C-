@@ -2,43 +2,7 @@
 using namespace std;
 
 int main(){
-    int i,j;
-    int sum;
-    int row,col;
-    int arr[100][100];
+    char arr[] = {'a','b','c','d'};
 
-    cout << "Enter the number of row:";
-    cin >> row;
-
-    cout << "Enter the number of col:";
-    cin >> col;
-
-    cout << "Enter the" << row * col << "elements:";
-
-
-
-    for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cin >> arr[i][j];
-        }
-    }
-
-    cout << "The original matrix is:";
-
-     for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cout << arr[i][j];
-        }
-    }
-    
-     for(i=0;i<row;i++){
-        sum = 0;
-        for(j=0;j<col;j++){
-            sum = sum + arr[j][i];
-           
-        }
-         cout << "the sum of each column is:" << sum;
-    }
-
-   
+   cout << (void*)&arr[0] << endl;
 }

@@ -1,1 +1,3 @@
-// column major formula write in dsa copy
+// arr means address of first index
+
+// &arr means address of entire array
