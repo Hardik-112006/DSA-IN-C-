@@ -1,8 +1,18 @@
-#include <iostream>
-using namespace std;
+//static_cast is a compile-time type conversion operator in C++.
+// It is the preferred way to perform safe, 
+//explicit conversions between compatible types.
 
-int main(){
-    char arr[] = {'a','b','c','d'};
+//static_cast<new_type>(expression)
 
-   cout << (void*)&arr << endl;
-}
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     double pi = 3.14159;
+
+//     int x = static_cast<int>(pi);
+
+//     cout << x;
+// }
+
+//output - 3

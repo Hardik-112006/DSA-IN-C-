@@ -1,3 +1,21 @@
-// arr means address of first index
+#include <iostream>
+using namespace std;
 
-// &arr means address of entire array
+int calculateLength(const char *str) {
+    int length = 0;
+
+    // Calculate the length of the string
+    while (str[length] != '\0') {
+        length++;
+    }
+
+    return length;
+}
+
+int main() {
+    const char *myString = "Hello, World!";
+
+    cout << "Length of the string: " << calculateLength(myString) << endl;
+
+    return 0;
+}

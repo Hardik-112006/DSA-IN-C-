@@ -1,15 +1,31 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
-int main(){
-    int i;
+bool isPalindrome(const char *str) {
+    const char *start = str;
+    const char *end = str + strlen(str) - 1;
 
-    int arr[] = {1,2,3,4,5};
-
-    int *ptr = &arr[4];
-
-    for(i=0;i<5;i++){
-        cout << *ptr << endl;
-        ptr--;
+    while (start < end) {
+        if (*start != *end) {
+            return false;
+        }
+        start++;
+        end--;
     }
+
+    return true;
+}
+
+int main() {
+    const char *palindrome1 = "level";
+    const char *palindrome2 = "hello";
+
+    cout << "Is '" << palindrome1 << "' a palindrome? "
+         << (isPalindrome(palindrome1) ? "Yes" : "No") << endl;
+
+    cout << "Is '" << palindrome2 << "' a palindrome? "
+         << (isPalindrome(palindrome2) ? "Yes" : "No") << endl;
+
+    return 0;
 }
