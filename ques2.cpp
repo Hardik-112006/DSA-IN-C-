@@ -1,18 +1,22 @@
-//static_cast is a compile-time type conversion operator in C++.
-// It is the preferred way to perform safe, 
-//explicit conversions between compatible types.
+#include <iostream>
+using namespace std;
 
-//static_cast<new_type>(expression)
+void modifyString(char *str)
+{
+    while (*str)
+    {
+        if (*str >= 'a' && *str <= 'z')
+        {
+            *str = *str - 'a' + 'A';
+        }
+        str++;
+    }
+}
 
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-//     double pi = 3.14159;
-
-//     int x = static_cast<int>(pi);
-
-//     cout << x;
-// }
-
-//output - 3
+int main()
+{
+    char myString[] = "hello World";
+    modifyString(myString);
+    cout << myString;
+    return 0;
+}

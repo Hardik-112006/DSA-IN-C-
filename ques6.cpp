@@ -1,42 +1,27 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i,j;
-    int row,col;
-    int arr[100][100];
-    int min = INT_MAX;
+void countVowelsAndConsonants(const char *str, int &vowels, int &consonants) {
+    vowels = consonants = 0;
 
-    cout << "Enter the number of row:";
-    cin >> row;
-
-    cout << "Enter the number of col:";
-    cin >> col;
-
-    cout << "Enter the" << row * col << "elements:";
-
-
-
-    for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cin >> arr[i][j];
-        }
-    }
-
-    cout << "The original matrix is:";
-
-     for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-         cout << arr[i][j];
-        }
-    }
-
-    for(i=0;i<row;i++){
-        for(j=0;j<col;j++){
-            if(min>arr[i][j]){
-                min = arr[i][j];
+    while (*str) {
+        char ch = tolower(*str);
+        if (isalpha(ch)) {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                vowels++;
+            } else {
+                consonants++;
             }
         }
+        str++;
     }
-    cout << "the largest element in array is:" << min;
 }
+
+int main() {
+    const char *text = "Hello, World!";
+    int numVowels, numConsonants;
+    countVowelsAndConsonants(text, numVowels, numConsonants);
+    cout << "Vowels: " << numVowels << ", Consonants: " << numConsonants;
+    return 0;
+}
+

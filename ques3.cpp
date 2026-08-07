@@ -1,8 +1,24 @@
-// Summary
-// Declaration	Can modify characters?	Valid in modern C++?
-// const char *str = "Hello";	❌ No	✅ Yes
-// char *str = "Hello";	Claims yes, but actually no	❌ No (ill-formed in modern C++)
-// char str[] = "Hello";	✅ Yes	✅ Yes
-// Rule to remember
-// String literal → use const char* (or, better yet, std::string in modern C++).
-// Need to modify the text → use char[] or std::string.
+#include <iostream>
+using namespace std;
+
+void concatenateAndPrint(char *str1, const char *str2)
+{
+    while (*str1)
+    {
+        str1++;
+    }
+
+    while ((*str1 = *str2))
+    {
+        str1++, str2++;
+    }
+}
+
+int main()
+{
+    char first[] = "Good";
+    const char second[] = "Morning";
+    concatenateAndPrint(first, second);
+    cout << first;
+    return 0;
+}

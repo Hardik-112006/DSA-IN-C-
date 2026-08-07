@@ -1,6 +1,16 @@
-// for(int i=1;i<=n;i++) 
-//       for(int j=1;j<=n;j=j++)
-//       for(int k=1;k<=n;k=k*3)
-//       cout<<"Coder Army";
- 
-// TIME COMPLEXITY WILL BE O(N^2 LOG OF BASE 3 N)
+#include <iostream>
+using namespace std;
+
+void foo(int *i, int*j) {
+    *i = *i + *j;
+    *j = *i - *j;
+    *i = *i - *j;
+}
+
+
+int main()
+{
+  int a = 4, b = 5;
+  foo(&a, &b);
+ cout<<a<<b;
+}

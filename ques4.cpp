@@ -1,21 +1,28 @@
 #include <iostream>
 using namespace std;
 
-int calculateLength(const char *str) {
-    int length = 0;
-
-    // Calculate the length of the string
-    while (str[length] != '\0') {
-        length++;
+void reverseString(char *str)
+{
+    char *end = str;
+    while (*end)
+    {
+        end++;
     }
+    end--;
 
-    return length;
+    while (str < end)
+    {
+        char temp = *str;
+        *str = *end;
+        *end = temp;
+        str++, end--;
+    }
 }
 
-int main() {
-    const char *myString = "Hello, World!";
-
-    cout << "Length of the string: " << calculateLength(myString) << endl;
-
+int main()
+{
+    char myString[] = "Programming";
+    reverseString(myString);
+    cout << myString;
     return 0;
 }
