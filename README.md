@@ -18,6 +18,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
 ## Binary Search
 |  |
 | ------- |
@@ -116,4 +117,8 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
