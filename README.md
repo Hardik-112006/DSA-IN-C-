@@ -92,6 +92,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
