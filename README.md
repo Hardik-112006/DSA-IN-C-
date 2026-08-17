@@ -96,6 +96,7 @@
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
 ## Simulation
 |  |
@@ -122,4 +123,24 @@
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
+## Minimax
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
