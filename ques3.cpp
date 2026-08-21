@@ -1,24 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void concatenateAndPrint(char *str1, const char *str2)
-{
-    while (*str1)
-    {
-        str1++;
+void print(int n){
+    if(n == 0){
+        return;
     }
-
-    while ((*str1 = *str2))
-    {
-        str1++, str2++;
-    }
+    else
+    cout << n << endl;
+    print(n - 1);
 }
 
-int main()
-{
-    char first[] = "Good";
-    const char second[] = "Morning";
-    concatenateAndPrint(first, second);
-    cout << first;
-    return 0;
+int main(){
+    int n;
+    cin >> n;
+    print(n);
 }

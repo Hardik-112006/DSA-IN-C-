@@ -1,8 +1,14 @@
-// Expression	What it represents	Type when used	Output
-// arr	First row's address	int (*)[4]	Address
-// arr[0]	First element's address	int*	Same address
-// arr[0][0]	Actual first integer	int	Integer value
+#include <iostream>
+using namespace std;
 
-// Important: arr and arr[0] print the same address,
-//  but their pointer types are different. 
-//  This difference becomes very important when you do pointer arithmetic.
+void print(int n){
+    if(n==0)
+    return;
+    else
+    cout << "Coder Army" << endl;
+    print(n-1);
+}
+
+int main(){
+    print(10);
+}
