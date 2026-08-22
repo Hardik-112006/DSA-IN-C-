@@ -1,19 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void odd(int n){
-    if(n == 0){
+void print(int N){
+    if(N == 10){
+        cout << 10 << endl;
         return;
     }
-    else if(n % 2 != 0){
-        cout << n << endl;
-    }
-    odd(n - 1);
+    print(N-1);
+    cout << N << endl;
 }
 
 int main(){
-    int n;
-    cin >> n;
+    int N;
+    cin >> N;
 
-    odd(n);
+    print(N);
 }

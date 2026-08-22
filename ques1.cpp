@@ -1,14 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void print(int n){
-    if(n==0)
-    return;
-    else
-    cout << "Coder Army" << endl;
-    print(n-1);
+void printodd(int N){
+    if(N == 1){
+        cout << 1 << endl;
+        return;
+    }
+    printodd(N-2);
+    cout << N << endl;
 }
 
 int main(){
-    print(10);
+    int N;
+    cin >> N;
+
+    if(N % 2 == 0){
+        N--;
+    }
+    printodd(N);
 }
