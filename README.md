@@ -143,4 +143,16 @@
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
+## Manacher
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+## Z Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
