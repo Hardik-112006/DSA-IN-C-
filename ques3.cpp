@@ -1,18 +1,29 @@
 #include <iostream>
 using namespace std;
 
-void table(int N,int i){
-    if(i>10){
-        return;
-    }
-     cout << N << " x " << i << " = " << N * i << endl;
-     table(N,i+1);
+bool isprime(int n,int div){
+if(div * div > n){
+    return true;
 }
 
-int main(){
-    int N;
-    cin >> N;
-    int i = 1;
+if(n % div == 0){
+    return false;
+}
+return isprime(n,div+1);
+}
 
-    table(N,i);
+
+int main(){
+    int n;
+    cin >> n;
+
+    if(n<2){
+        cout <<"not prime";
+    }
+    else if(isprime(n,2)){
+        cout << "prime";
+    }
+    else{
+        cout << "not prime";
+    }
 }

@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void print(int N){
-    if(N == 10){
-        cout << 10 << endl;
-        return;
+int poweroffour(int n,int i){
+    if(i == 1){
+        return 4;
     }
-    print(N-1);
-    cout << N << endl;
+
+    return 4 * poweroffour(4,i-1);
+
 }
 
 int main(){
-    int N;
-    cin >> N;
+   int i;
+   cin >> i;
+    cout << poweroffour(4,i);
 
-    print(N);
 }

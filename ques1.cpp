@@ -1,21 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void printodd(int N){
-    if(N == 1){
-        cout << 1 << endl;
-        return;
+int cubesum(int n){
+    if(n == 1){
+        return 1;
     }
-    printodd(N-2);
-    cout << N << endl;
+    return n*n*n + cubesum(n-1);
 }
 
 int main(){
     int N;
     cin >> N;
 
-    if(N % 2 == 0){
-        N--;
-    }
-    printodd(N);
+   cout << cubesum(N);
 }
