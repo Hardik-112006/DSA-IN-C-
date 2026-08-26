@@ -101,6 +101,7 @@
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
 | [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
+| [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
 | ------- |
@@ -158,4 +159,16 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
