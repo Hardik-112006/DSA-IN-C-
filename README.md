@@ -99,6 +99,7 @@
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
@@ -162,6 +163,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
@@ -170,5 +172,6 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
