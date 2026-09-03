@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int cubesum(int n){
-    if(n == 1){
-        return 1;
+int sum(int arr[],int index,int n){
+    if(index==0){
+        return 0;
     }
-    return n*n*n + cubesum(n-1);
+    else{
+        return arr[index-1]+sum(arr,index-1,n);
+    }
 }
 
 int main(){
-    int N;
-    cin >> N;
-
-   cout << cubesum(N);
+    int arr[]={3,4,5,8,2};
+    cout << sum(arr,5,5);
 }

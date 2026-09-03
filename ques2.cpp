@@ -1,18 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int poweroffour(int n,int i){
-    if(i == 1){
-        return 4;
+int max(int arr[],int index,int n){
+    if(index == n-1){
+        return arr[index];
     }
 
-    return 4 * poweroffour(4,i-1);
-
+    return max(arr[index],max(arr,index+1,n));
 }
 
 int main(){
-   int i;
-   cin >> i;
-    cout << poweroffour(4,i);
+    int arr[]={7,2,4,1,6};
 
+    cout <<max(arr,0,5);
 }

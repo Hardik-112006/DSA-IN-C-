@@ -1,28 +1,19 @@
 #include <iostream>
 using namespace std;
 
-void reverseString(char *str)
-{
-    char *end = str;
-    while (*end)
-    {
-        end++;
+int counteven(int arr[],int index,int n){
+    if(index == n){
+        return 0;
     }
-    end--;
-
-    while (str < end)
-    {
-        char temp = *str;
-        *str = *end;
-        *end = temp;
-        str++, end--;
+    if(arr[index]%2==0){
+        return 1+counteven(arr,index+1,n);
+    }
+    else{
+        return counteven(arr,index+1,n);
     }
 }
 
-int main()
-{
-    char myString[] = "Programming";
-    reverseString(myString);
-    cout << myString;
-    return 0;
+int main(){
+    int arr[]={1,2,4,7,8};
+    cout << counteven(arr,0,5);
 }

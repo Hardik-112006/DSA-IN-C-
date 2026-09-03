@@ -1,29 +1,16 @@
 #include <iostream>
 using namespace std;
 
-bool isprime(int n,int div){
-if(div * div > n){
-    return true;
-}
+int product(int arr[],int index,int n){
+    if(index == n){
+        return 1;
+    }
 
-if(n % div == 0){
-    return false;
+    return arr[index] * product(arr,index+1,n);
 }
-return isprime(n,div+1);
-}
-
 
 int main(){
-    int n;
-    cin >> n;
+    int arr[]={1,2,3,4,5};
 
-    if(n<2){
-        cout <<"not prime";
-    }
-    else if(isprime(n,2)){
-        cout << "prime";
-    }
-    else{
-        cout << "not prime";
-    }
+    cout << product(arr,0,5);
 }
