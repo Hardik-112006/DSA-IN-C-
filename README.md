@@ -73,6 +73,7 @@
 | [0031-next-permutation](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0344-reverse-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0344-reverse-string) |
 ## String
 |  |
 | ------- |
@@ -82,6 +83,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+| [0344-reverse-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
 | [1108-defanging-an-ip-address](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1108-defanging-an-ip-address) |
