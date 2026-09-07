@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int max(int arr[],int index,int n){
-    if(index == n-1){
-        return arr[index];
+void revarr(int arr[], int left, int right){
+    if(left >= right){
+        return;
     }
-
-    return max(arr[index],max(arr,index+1,n));
+    swap(arr[left], arr[right]);
+    revarr(arr, left + 1, right - 1);
 }
 
 int main(){
-    int arr[]={7,2,4,1,6};
-
-    cout <<max(arr,0,5);
+    int arr[] = {1,2,3,4,5};
+    revarr(arr,0,4);
+    for(int i = 0; i < 5; i++){
+        cout << arr[i] << " ";
+    }
 }
