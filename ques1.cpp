@@ -1,27 +1,85 @@
 #include <iostream>
 using namespace std;
 
-int binarysearch(int arr[], int left, int right, int target){
-    if(left > right){
-        return -1;
+void merge(int arr[], int start, int mid, int end) {
+
+    int left = start;
+    int right = mid + 1;
+    int index = 0;
+
+    int temp[end - start + 1];
+
+    // Compare left and right arrays
+    while (left <= mid && right <= end) {
+
+        if (arr[left] <= arr[right]) {
+            temp[index] = arr[left];
+            left++;
+        }
+        else {
+            temp[index] = arr[right];
+            right++;
+        }
+
+        index++;
     }
-    int mid = left + (right - left) / 2;
-    if(arr[mid] == target){
-        return 1;
+
+    // Left array elements left
+    while (left <= mid) {
+        temp[index] = arr[left];
+        left++;
+        index++;
     }
-    else if(arr[mid] < target){
-          return binarysearch(arr, left, mid - 1, target);
+
+    // Right array elements left
+    while (right <= end) {
+        temp[index] = arr[right];
+        right++;
+        index++;
     }
-    else{
-     
-         return binarysearch(arr, mid + 1, right, target);
+
+    // Copy temp back to original array
+    index = 0;
+
+    while (start <= end) {
+        arr[start] = temp[index];
+        start++;
+        index++;
     }
 }
 
+void mergeSort(int arr[], int start, int end) {
 
-int main(){
-    int arr[] = {20,15,10,5};
-    int target = 1;
-    cout << binarysearch(arr,0,3,target);
+    // Base condition
+    if (start >= end) {
+        return;
+    }
 
+    int mid = start + (end - start) / 2;
+
+    // Sort left half
+    mergeSort(arr, start, mid);
+
+    // Sort right half
+    mergeSort(arr, mid + 1, end);
+
+    // Merge both halves
+    merge(arr, start, mid, end);
+}
+
+int main() {
+
+    int arr[] = {6, 4, 7, 2, 9, 8, 3, 5};
+
+    int n = 8;
+
+    mergeSort(arr, 0, n - 1);
+
+    cout << "Sorted array: ";
+
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
 }
