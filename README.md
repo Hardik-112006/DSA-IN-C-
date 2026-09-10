@@ -20,6 +20,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -38,6 +39,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 ## Matrix
 |  |
 | ------- |
@@ -57,6 +59,7 @@
 | ------- |
 | [0018-4sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
 | [2785-sort-vowels-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/2785-sort-vowels-in-a-string) |
 ## Counting
@@ -177,4 +180,24 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
