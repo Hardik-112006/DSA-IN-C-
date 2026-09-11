@@ -1,34 +1,14 @@
-#include <iostream>
-using namespace std;
+// What is a stable algorithm?
+//  Find whether Bubble sort, Selection Sort, Insertion Sort, Merge Sort and Quicksort are stable algorithms.
 
-void rotatearr(int arr[], int index, int n, int temp) {
 
-    
-    if (index < 0) {
-        arr[0] = temp;
-        return;
-    }
+// Stable:
 
-    arr[index + 1] = arr[index];
+// ✅ Bubble Sort
+// ✅ Insertion Sort
+// ✅ Merge Sort
 
-    
-    rotatearr(arr, index - 1, n, temp);
-}
+// Not stable:
 
-int main() {
-
-    int arr[] = {1, 2, 3, 4, 5};
-
-    int n = 5;
-    int temp = arr[n - 1];
-
-    rotatearr(arr, n - 2, n, temp);
-
-    cout << "Rotated array: ";
-
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-
-    return 0;
-}
+// ❌ Selection Sort
+// ❌ Quick Sort

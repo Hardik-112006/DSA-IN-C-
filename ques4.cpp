@@ -1,19 +1,14 @@
-#include <iostream>
-using namespace std;
+// What is an in-place algorithm? 
+// Find whether Bubble sort, Selection Sort, Insertion Sort, Merge Sort and Quicksort are in-place algorithms.
 
-int counteven(int arr[],int index,int n){
-    if(index == n){
-        return 0;
-    }
-    if(arr[index]%2==0){
-        return 1+counteven(arr,index+1,n);
-    }
-    else{
-        return counteven(arr,index+1,n);
-    }
-}
 
-int main(){
-    int arr[]={1,2,4,7,8};
-    cout << counteven(arr,0,5);
-}
+// Final Answer
+
+// In-place:
+// ✅ Bubble Sort
+// ✅ Selection Sort
+// ✅ Insertion Sort
+// ✅ Quick Sort
+
+// Not in-place:
+// ❌ Merge Sort (standard implementation)
