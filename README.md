@@ -14,6 +14,7 @@
 | [0035-search-insert-position](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0162-find-peak-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
@@ -60,6 +61,7 @@
 | ------- |
 | [0015-3sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0018-4sum) |
+| [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
@@ -77,6 +79,7 @@
 | [0027-remove-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0344-reverse-string) |
@@ -203,4 +206,12 @@
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
