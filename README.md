@@ -13,6 +13,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
+| [0056-merge-intervals](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0162-find-peak-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0162-find-peak-element) |
@@ -61,6 +62,7 @@
 | ------- |
 | [0015-3sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
@@ -209,6 +211,7 @@
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 ## Bubble Sort
 |  |
