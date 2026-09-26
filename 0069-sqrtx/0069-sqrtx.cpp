@@ -2,7 +2,7 @@ class Solution {
 public:
     int mySqrt(int x) {
      int start,end,mid,ans;
-     start = 0;
+     start = 1;
      end = x;
 
      if(x<2)
