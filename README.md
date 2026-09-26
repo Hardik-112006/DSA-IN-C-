@@ -32,6 +32,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -118,6 +119,7 @@
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0292-nim-game) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
@@ -239,4 +241,8 @@
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0278-first-bad-version) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
