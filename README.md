@@ -21,6 +21,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
@@ -157,6 +158,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
 ## Brainteaser
 |  |
