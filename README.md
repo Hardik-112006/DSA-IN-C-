@@ -13,6 +13,7 @@
 | [0031-next-permutation](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
@@ -54,6 +55,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
@@ -64,6 +66,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0036-valid-sudoku) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
