@@ -63,6 +63,7 @@
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 ## Sorting
 |  |
@@ -73,6 +74,7 @@
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
 | [2785-sort-vowels-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/2785-sort-vowels-in-a-string) |
@@ -103,6 +105,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0125-valid-palindrome) |
 | [0214-shortest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0214-shortest-palindrome) |
+| [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
