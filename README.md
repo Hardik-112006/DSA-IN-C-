@@ -26,6 +26,7 @@
 | [0238-product-of-array-except-self](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
@@ -52,6 +53,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 ## Matrix
 |  |
@@ -72,6 +74,7 @@
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 ## Sorting
 |  |
@@ -84,6 +87,7 @@
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
 | [2785-sort-vowels-in-a-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/2785-sort-vowels-in-a-string) |
@@ -91,6 +95,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -216,6 +221,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -224,6 +230,7 @@
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 ## Radix Sort
 |  |
@@ -262,4 +269,8 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0069-sqrtx) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
