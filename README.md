@@ -19,6 +19,7 @@
 | [0056-merge-intervals](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
+| [0128-longest-consecutive-sequence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0128-longest-consecutive-sequence) |
 | [0162-find-peak-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
@@ -71,6 +72,7 @@
 | [0013-roman-to-integer](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
@@ -273,4 +275,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
