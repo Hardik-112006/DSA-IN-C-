@@ -12,7 +12,7 @@ public:
             if(numbers[start] + numbers[end] == target){
                 ans.push_back(start+1);
                 ans.push_back(end+1);
-                break;
+                return ans;
             }
             else if(numbers[start] + numbers[end] < target){
                 start++;
@@ -21,7 +21,7 @@ public:
                 end--;
             }
         }
-        return ans;
+        return {};
     }
 };
     
