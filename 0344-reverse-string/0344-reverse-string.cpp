@@ -1,19 +1,18 @@
 class Solution {
 public:
+    void reverseString(vector<char>& s) {
+        int start = 0;
+        int end = s.size()-1;
+        int temp;
 
-    void rev(vector<char>& str, int start, int end) {
-        if(start >= end) {
-            return;
+        while(start<end){
+            temp = s[start];
+            s[start] = s[end];
+            s[end] = temp;
+
+            start++;
+            end--;
         }
 
-        char c = str[start];
-        str[start] = str[end];
-        str[end] = c;
-
-        rev(str, start + 1, end - 1);
-    }
-
-    void reverseString(vector<char>& s) {
-        rev(s, 0, s.size() - 1);
     }
 };
