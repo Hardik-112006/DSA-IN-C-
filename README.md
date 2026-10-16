@@ -33,6 +33,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
@@ -85,6 +86,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
+| [0560-subarray-sum-equals-k](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0560-subarray-sum-equals-k) |
 ## Sorting
 |  |
 | ------- |
@@ -188,6 +190,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
 ## Brainteaser
 |  |
