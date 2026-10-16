@@ -31,6 +31,7 @@
 | [0283-move-zeroes](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
@@ -50,6 +51,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0278-first-bad-version](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 ## Divide and Conquer
@@ -81,6 +83,7 @@
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0409-longest-palindrome](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0409-longest-palindrome) |
 ## Sorting
 |  |
@@ -95,6 +98,7 @@
 | [0217-contains-duplicate](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0977-squares-of-a-sorted-array) |
 | [1859-sorting-the-sentence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/1859-sorting-the-sentence) |
@@ -121,6 +125,7 @@
 | [0283-move-zeroes](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0349-intersection-of-two-arrays) |
 | [0977-squares-of-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
