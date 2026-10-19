@@ -21,6 +21,7 @@
 | [0074-search-a-2d-matrix](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0128-longest-consecutive-sequence) |
 | [0162-find-peak-element](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -228,6 +229,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
