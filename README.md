@@ -38,6 +38,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0739-daily-temperatures) |
 | [0912-sort-an-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0977-squares-of-a-sorted-array) |
@@ -174,6 +175,7 @@
 |  |
 | ------- |
 | [0415-add-strings](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0415-add-strings) |
+| [0735-asteroid-collision](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0735-asteroid-collision) |
 ## Sliding Window
 |  |
 | ------- |
@@ -309,6 +311,7 @@
 | [0020-valid-parentheses](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0155-min-stack) |
+| [0735-asteroid-collision](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Hardik-112006/DSA-IN-C-/tree/master/0739-daily-temperatures) |
 ## Bracket Sequences
 |  |
